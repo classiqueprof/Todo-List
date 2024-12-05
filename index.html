@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My todo list</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9043769453.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1 class="list">Honesty's To-do Listgit gggggggg</h1>
+    <div class="todo-list">
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Enter your todo list here"
+      />
+      <button id="add-task-btn">Add Task</button>
+      <select id="filter-select">
+        <option value="all">All</option>
+        <option value="finished">Finished</option>
+        <option value="unfinished">Unfinished</option>
+      </select>
+    </div>
+    <ul id="task-list"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>
