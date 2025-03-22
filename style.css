@@ -110,4 +110,8 @@ html {
     flex-direction: column;
     gap: 2rem;
   }
+
+  .task-input {
+    width: 60%;
+  }
 }
